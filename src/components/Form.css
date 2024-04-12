@@ -1,0 +1,51 @@
+.Login-form{
+    width: 100%;
+    height: 100vh;
+    /* margin: auto; */
+    /* border: 10px solid #1d0101; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: black; 
+    display: flex;  
+}
+.inputs{
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color: rgb(217, 119, 20);
+}
+
+.input1{
+    justify-content: space-between;
+    padding-bottom: 60px;    
+}
+.input2{
+    justify-content: space-between;
+    padding-bottom: 60px;    
+}
+.input3{
+    justify-content: space-between;
+    padding-bottom: 60px;    
+}
+
+.about-store{
+    width: 50%;
+    height: 100vh;
+    background-image: url('https://th.bing.com/th/id/OIP.XX7XhQavE2FnE7edsYt-LQHaFj?pid=ImgDet&w=474&h=355&rs=1');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color: rgb(217, 119, 20);
+    
+}
+.inputs, .about-store{
+    flex: 1;
+}
